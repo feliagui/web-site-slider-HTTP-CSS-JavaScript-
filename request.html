@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Request Foodar</title>
+		<meta charset='utf-8'>
+		  <meta name="viewport" content="initial-scale=1, width=device-width"/>
+		<link rel='stylesheet' type='text/css' href='css/mistyle.css'>
+		<script src="js/script.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Aguafina+Script' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" /></a>
+			</div>
+			<nav class="menu">
+			<ul>
+				<li><a href="#">Sign-in</a></li>
+				<li> / </li>
+				<li><a href="register.html">Register</a></li>
+				<li> / </li>
+				<li><a href="request.html">Request</a></li>
+			</ul>
+		</nav>
+		</header>
+		<section id="register" class="container">	
+			<div class="fixed">
+				<div class="titulo_boton">
+    				Additional Information
+  					<a style='cursor: pointer;' onClick="muestra_oculta('contenido_banner')" title="" class="boton_mostrar">Show / Hide</a>
+				</div>
+				<div id="contenido_banner">
+					<div class="main-banner" id="main-banner">
+						<div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
+						<div class="imgban" id="cebolla">
+							<p><a href="https://www.anexostransaccionales.com/">Visit www.anexostransaccionales.com</a></p>
+						</div>
+					    <div class="imgban" id="helado">
+					        <p><a href="https://www.dmx.anexostransaccionales.com/">Visit www.dmx.anexostransaccionales.com</a></p>
+					    </div>
+					    <div class="imgban" id="papa">
+					        <p><a href="https://www.tiktok.com/">Visit www.tiktok.com</a></p>
+					    </div>
+						<div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
+					    </div>
+					</div>
+			</div>
+		</div>
+			<div class='heading' >
+				<h3 class="nav-text">Request</h3>
+				<div class="underline"></div>
+			
+			</div>
+
+			<div class="contenting width-95">
+				<p>Please fill out the form below:</p>
+			<form action="" class="formulario" name="pregunta">
+				<div class="wrap">
+
+
+						<div class="clear"></div>
+						<h5>address:</h5>
+						<div class="righ-input">
+						<input type="text" name="Email" placeholder="Email"/>
+						</div>
+						<div class="clear"></div>
+						<h5>Choose Your Style</h5>
+						<div class="radio" >							
+							<input  type="radio" name="estilo" id="s1" value="Classic" onclick="OnChangeRadio (this)"/>
+							<label for="s1">Classic This is a classic treatment.</label>
+			
+							<input  type="radio" name="estilo" id="s2" value="Premium" onclick="OnChangeRadio (this)"/>
+							<label for="s2">Premium pink's up.</label>
+		
+							<input type="radio" name="estilo" id="s3" value="Royal" onclick="OnChangeRadio (this)"/>
+							<label for="s3">Royal Your food is served on a sivler platter Literally.</label>
+						</div>
+						<div class="clear"></div>
+						<h5>Restaurant:</h5>
+						<div class="righ-input">
+						<input type="text" name="Name" placeholder="Name"/>
+						</div>
+						<div class="clear"></div>
+						<h5>tip</h5>
+						<div class="radio">							
+							<input type="radio" name="mm" id="idRadio" value="10" onclick="OnChangeRadio (this)"/>
+							<label for="idRadio">10 % They did their job.</label>
+			
+							<input type="radio" name="mm" id="x1" value="15" onclick="OnChangeRadio (this)"/>
+							<label for="x1">15 % They made you feel special.</label>
+		
+							<input type="radio" name="mm" id="x2" value="20" onclick="OnChangeRadio (this)"/>
+							<label for="x2">20 % I wanna give them more, but this is all I have!</label>
+						</div>
+
+						<div > 
+							
+							<br>
+								<p class="width-center">Total = $</p><p id="demo" class="ladoR"></p>
+							<br>
+							
+							<br>
+							
+						</div>
+
+						<div class="width-95">
+								<button onclick="myFunction()" class="rinp-btn">Request</button> 
+						</div>
+				</div>
+			</form>
+			</div>
+			<div class="clear"></div>
+		</section>	
+		<footer>
+		<div class="container">
+			<div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h3>Site Map</h3>
+				</div>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="register.html">Register</a></li>
+					<li><a href="about.html">How it All Works</a></li>
+				</ul>
+			</div>
+			<div id="sitemap" class="foot-menu">
+				<div class="foot-title">
+					<h3>Legal</h3>
+				</div>
+				<ul>
+					<li>Privacy Policy</li>
+					<li>Terms & Conditions</li>
+				</ul>
+			</div>
+            <div id="sitemap" class="sitemap">
+				<div class="foot-title">
+					<h3>Food is Life :)</h3>
+				</div>
+			</div>
+           <div class="clear"></div>
+		</div>
+
+		<section class="copy">
+			<p>&copy; 2020. All rights reserved. </p>
+			<p class="small">Version 1.0.1</p>
+			<br />
+			
+			<br />
+		</section>
+	</footer>
+		
+	</body>
+</html>
